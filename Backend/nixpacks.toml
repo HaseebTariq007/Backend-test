@@ -1,0 +1,9 @@
+[phases.setup]
+nixpkgs = [
+  "pkg-config",
+  "libmysqlclient",
+  "mariadb-connector-c",  # sometimes needed for compatibility
+  "gcc",
+  "python312Full",
+  "python312Packages.pip"
+]
